@@ -95,20 +95,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	body {
+		background: black;
+		color: #ddd;
+		padding: 1em 2em;
+	}
+	
+	h1, h2 {
+		margin: 2em 0 1em;
+		text-align: center;
+		font-family: 'Pridi';
+		text-transform: lowercase;
+	}
+	
+	h1 {
+		color: #fe00fe;
+	}
+	
+	.fancy {
+		text-align: center;
+		font-size: 1.3em;
+	}
+	
+	p {
+		line-height: inherit;
+	}
+	
+	li {
+		margin: 1em 0;
+	}
+	
+	.comment {
+		display: block;
+		margin-top: 2em;
+		color: #aaa;
+	}
+	
+	code {
+		display: block;
+		font-family: 'Pridi', serif;
+		font-size: 2em;
+		color: white;
+		text-align: center;
+	}
 
 
 /* ==========================================================================
