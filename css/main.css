@@ -97,6 +97,7 @@ textarea {
 
 	body {
 		background: black;
+		font-family: 'Open Sans';
 		color: #ddd;
 		padding: 1em 2em;
 	}
@@ -138,7 +139,15 @@ textarea {
 		color: white;
 		text-align: center;
 	}
-
+	
+	strong {
+		font-weight: bold;
+	}
+	
+	footer {
+		margin: 5em 0 2em;
+		text-align: center;
+	}
 
 /* ==========================================================================
    Helper classes
